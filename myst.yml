@@ -1,0 +1,22 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: USVOA
+  subject: USVOA
+  date: 2026-06-09
+  # description:
+  # keywords: []
+  authors: [USVOA]
+  github: https://github.com/usvoa/
+  error_rules:
+    - rule: reference-target-resolves
+      severity: error
+
+  toc:
+    - file: content/index.md
+
+site:
+  template: book-theme
+#  options:
+#    favicon: _static/usvoa-favicon.ico
+#    logo: _static/usvoa_logo.png
